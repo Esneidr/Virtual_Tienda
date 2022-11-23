@@ -1,0 +1,61 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" contnet="IE=edge">
+    <meta name="viewport" content="width=device=width, initial-scale=1.0">
+    <title>Datos Usuario</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="{% static 'css/estiloprod.css' %}">
+    <link rel="icon" type="image/png" href="{% static 'img/fuente1.png' %}">
+
+</head>
+
+<body>
+
+    <header class="content header">
+        <h2 class="title">Usuario</h2>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+             Ipsam necessitatibus odio quisquam reprehenderit quas, 
+             obcaecati, harum hic molestiae sequi ipsa nihil id tempore explicabo 
+            libero vero quia asperiores similique dicta.
+        </p>
+
+    </header>
+
+    <form>
+
+        <label for="inomb">Nombre:</label>
+        <input id="inomb" type="text" name="nombre_usuario">
+        <br>
+        <br>
+        <label for="ieda">Edad:</label>
+        <input id="ieda" type="text" name="edad">
+        <br>
+        <br>
+        <label for="itel">Movil:</label>
+        <input id="itel" type="text" name="tel">
+        <br>
+        <br>
+        <label for="idir">Direccion:</label>
+        <input id="idir" type="text" name="dir">
+        <br>
+        <br>
+        <label for="iema">Email:</label>
+        <input id="iema" type="email" name="email">
+        <br>
+        <br>
+        <input type="submit" values="Agregar">
+        <input type="reset" values="Modificar">
+
+
+    </form>
+
+
+</body>
+</html>
+
